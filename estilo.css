@@ -1,28 +1,32 @@
 body{
-    background-color: black;
+    background-color:white;
+}
+
+header{
+    text-align: center;
 }
 
 h1{
-    color: white;
+    color: green;
     text-align:  center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 h2{
-    color: white;
-    text-align:  left;
+    color: green;
+    text-align:  center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p{
-    color: white;
+    color: green ;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul{
-    color: white;
+    color: green;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -30,19 +34,36 @@ ul{
 .informacoes_pessoais {
 
         border-radius: 15px;
-        border-color: white;
-        border: 2px solid white       
+        border-color: green;
+        border: 2px solid green;  
 }
 
 .foto{
 
      display: inline-block;
      padding: 5px;                  
-     border: 5px solid #333;        
-     border-radius: 15px;          
-     background-color: #f5f5f5; 
-     position: relative;
+     border: 1px solid black;        
+             
+}
 
-       
+a{
+    color: green;
+    text-decoration: none;
+}
+
+span{
+    color: white;
+    text-decoration: solid;
+    background-color: rgb(64, 64, 176);
+    padding: 5px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+
+footer{
+    border-style: solid 3px;
+    color:green
+    
 }
 
